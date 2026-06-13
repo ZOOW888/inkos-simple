@@ -2,7 +2,7 @@ const { exec } = require('child_process');
 
 console.log('正在启动 InkOS Studio...');
 
-const inkos = exec('npx @actalk/inkos studio --port 3000 --host 0.0.0.0');
+const inkos = exec('npx @actalk/inkos studio --port 3000');
 
 inkos.stdout.on('data', (data) => {
     console.log(`[InkOS] ${data}`);
