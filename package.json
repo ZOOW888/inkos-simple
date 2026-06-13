@@ -1,0 +1,10 @@
+{
+  "name": "inkos-simple",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "@actalk/inkos": "^1.5.0"
+  }
+}
